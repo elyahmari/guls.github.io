@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to right,   #aece87,#5b7140,#1f2f09);
+  margin: 0 auto;
+
+}
+
+.navbar{
+    float:right;
+    padding:35px;
+    color:rgb(250, 227, 200);
+    text-decoration: none;
+	font-weight: bold;
+    margin-top: 5px;
+    margin-right: 18%;
+}
+.logo{
+    margin-left: 45%;
+    width:70%;
+}
+a{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+
+header a{
+    font-size: 40px;
+    font-family:  Helvetica;
+    padding:15px;
+    color:#1f2f09;
+    text-decoration: none;
+    
+}
+header a:hover{
+    border-radius:2px;
+   background-color: #5e7c56;
+}
+
+
+.row{
+    display: -ms-flexbox;
+    padding:40px;
+}
+.column{
+-ms-flex: 20%;
+    flex: 20%;
+    
+}
+.column img{
+    margin-top: 7px;
+    width: 250px;
+    height: 70%;
+}
+.column img:hover{
+   opacity: 1;
+}
+
+
+
+.container{
+    position:absolute;
+    color: #849273;
+    font-size: 20px;
+}
+#imgtext{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn{
+    position:absolute;
+    top: 3px;
+    left:43%;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+    img{
+        width: 50%;
+        height: 70%;
+    }
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    header a{
+        font-size: 16px;
+        padding:2px;
+        color:#1f2f09;
+        text-decoration: none;
+    }
+    .column {
+      -ms-flex: 150%;
+      flex: 150%;
+      max-width: 150%;
+    }
+  }

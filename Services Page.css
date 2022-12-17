@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( to right,   #aece87,#5b7140,#1f2f09);
+}
+header{
+    width:100%;
+   padding:3%;
+    
+}
+.logo{
+    font-family: fantasy;
+    font-weight: unset;
+    color:#1f2f09;
+    font-size: 24px;
+}
+.topnav{
+    margin-left: 10%;
+}
+.topnav a{
+    padding: 10px;
+    font-size: 32px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color:#1f2f09;
+    text-decoration: none;
+ border-radius: 5px;
+  
+}
+.topnav a:hover{
+   background-color: #88af7e;
+
+}
+img{
+    margin-left:200px;
+     width: 25%; 
+     height:20%;
+}
+.box{
+    padding: 10px;
+	display: flex;
+    height: auto;
+	justify-content: center;
+	align-items: center;
+    margin-top: 50px;
+    
+}
+.card{
+   
+	height: 230px;
+	width: 230px;
+	background:rgba(154, 185, 139, 0.852);
+	border-radius: 20px;
+	margin: 15px;
+	overflow: hidden;
+	text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ffffff;
+    
+}
+@media screen and (max-width: 700px) {
+    .topnav{
+        margin-left: 15%;
+    }
+    .topnav a{
+        padding: 1%;
+        font-size: 20px;
+        font-family: 'Helvetica';
+        font-weight: bold;
+        color:#1f2f09;
+        text-decoration: none;
+       border: #566a3d;
+       width: 4%;
+    }
+}
+  @media screen and (max-width: 400px) {
+    .topnav{
+
+        margin-left: 15%;
+    
+   } 
+   .topnav a{
+    padding: 1%;
+    font-size: 16px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color:#1f2f09;
+    text-decoration: none;
+   border: #566a3d;
+   width: 4%;
+}
+  }
